@@ -121,3 +121,5 @@ function changePage(page) {
   currentPage = page
   renderCards()
 }
+
+twemoji.parse(document.querySelector("body"));
