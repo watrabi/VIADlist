@@ -27,7 +27,7 @@ async function getLormex() {
   let revivals = {};
 
   /* first pass compute current ccu */
-  await fetch("https://corsproxy.io/?url=https://lormex.xyz/api/revivals?page=1&pageSize=420")
+  await fetch("https://lormex.xyz/api/revivals?page=1&pageSize=69&fast=1")
     .then(res => res.json())
     .then(json => {
       for (var i in json.items) {
